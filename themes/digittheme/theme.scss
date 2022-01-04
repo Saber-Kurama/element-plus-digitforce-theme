@@ -1,0 +1,13 @@
+// 主主题文件，导入主题所需的 scss 文件  主文件
+@forward "element-plus/theme-chalk/src/common/var.scss" with (
+  $colors: (
+    'primary': (
+      'base': #FF1A3B
+    ),
+    'danger': (
+      'base': #FF1A3B
+    )
+  )
+);
+
+@import "element-plus/theme-chalk/src/index.scss";

@@ -1,0 +1,53 @@
+{
+  "name":"",
+  "private": true,
+  "packageManager": "pnpm@6.24.4",
+  "workspaces": [
+    "packages/*",
+    "themes/*",
+    "docs"
+  ],
+  "engines": {
+    "node": ">= 16"
+  },
+  "scripts": {},
+  "browserslist": [
+    "> 1%",
+    "not ie 11",
+    "not op_mini all"
+  ],
+  "peerDependencies": {
+    "vue": "^3.2.0"
+  },
+  "dependencies": {
+    "@element-plus/components": "workspace:*",
+    "@element-plus/directives": "workspace:*",
+    "@element-plus/hooks": "workspace:*",
+    "@element-plus/icons-vue": "^0.2.4",
+    "@element-plus/locale": "workspace:*",
+    "@element-plus/test-utils": "workspace:*",
+    "@element-plus/theme-chalk": "workspace:*",
+    "@element-plus/tokens": "workspace:*",
+    "@element-plus/utils": "workspace:*",
+    "@popperjs/core": "^2.10.2",
+    "async-validator": "^4.0.7",
+    "element-plus": "^1.3.0-beta.1",
+    "dayjs": "^1.10.7",
+    "lodash": "^4.17.21",
+    "memoize-one": "^6.0.0",
+    "normalize-wheel-es": "^1.1.1"
+  },
+  "devDependencies": {
+    "@docsearch/css": "3.0.0-alpha.42",
+    "@vue/shared": "3.2.26",
+    "@vue/test-utils": "2.0.0-rc.16",
+    "chalk": "4.1.2",
+    "rimraf": "3.0.2",
+    "sass": "1.45.1",
+    "sucrase": "3.20.3",
+    "vue": "3.2.26",
+    "vue-jest": "5.0.0-alpha.10",
+    "vue-router": "4.0.12",
+    "vue-tsc": "0.30.1"
+  }
+}

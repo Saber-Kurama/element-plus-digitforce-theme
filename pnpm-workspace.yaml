@@ -1,0 +1,6 @@
+#
+packages:
+  - 'packages/**'
+  - 'themes/**'
+  - docs
+  - '!**/__tests__/**'
