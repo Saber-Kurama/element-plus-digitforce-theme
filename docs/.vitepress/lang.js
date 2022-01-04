@@ -1,7 +1,14 @@
+/*
+ * @Author: saber
+ * @Date: 2022-01-04 14:25:35
+ * @LastEditTime: 2022-01-04 16:04:40
+ * @LastEditors: saber
+ * @Description: 
+ */
 ;(() => {
   const supportedLangs = window.supportedLangs
   const cacheKey = 'preferred_lang'
-  const defaultLang = 'en-US'
+  const defaultLang = 'zh-CN'
   // docs supported languages
   const langAlias = {
     en: 'en-US',
