@@ -3,10 +3,10 @@
 @use 'sass:map';
 // @use 'node_modules/element-plus/theme-chalk/src/common/var' as *;
 
-@forward "element-plus/theme-chalk/src/common/var.scss" with (
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
   $colors: (
     'primary': (
-      'base': #3C6EFF 
+      'base': #3c6eff,
     ),
     'success': (
       'base': #67c23a,
@@ -24,23 +24,29 @@
       'base': #909399,
     ),
   ),
-  $common-component-size:
-    (
-      'large': 36px,
-      'default': 36px,
-      'small': 24px,
-    ),
-  // $common-component-size: map.merge(
-  //   (
-  //     'large': 36px,
-  //     'default': 30px,
-  //     'small': 24px,
-  //   ),
-  //   $common-component-size
-  // )
+  $common-component-size: (
+    'large': 36px,
+    'default': 36px,
+    'small': 24px,
+  ),
+  $text-color: (
+    'primary': #33353b,
+  ),
+  $table: (
+    'header-bg-color': #fafafa,
+    'header-text-color': rgba(0, 0, 0, 0.85),
+  ),
   $button-padding-horizontal: (
     'large': 20px,
     'default': 18px,
     'small': 12px,
-  ),
+  )
+  // $common-component-size: map.merge(
+//   (
+//     'large': 36px,
+//     'default': 30px,
+//     'small': 24px,
+//   ),
+//   $common-component-size
+// )
 );

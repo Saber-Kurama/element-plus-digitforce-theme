@@ -1,1 +1,58 @@
 // 如果变量不支持行为，则对主题进行自定义
+
+// el-button start
+.el-button {
+  &.el-button--default {
+    --el-button-size: 36px;
+    &.is-circle {
+      height: var(--el-button-size);
+      width: var(--el-button-size);
+    }
+  }
+  &.el-button--default:not(.el-button--text, .is-circle) {
+    min-width: 64px;
+  }
+  &.el-button--small:not(.el-button--text, .is-circle) {
+    min-width: 60px;
+  }
+}
+// el-button end ------------------
+
+// el-table start
+.el-table {
+  width: 100%;
+  &::before {
+    width: 0;
+  }
+  .el-table__cell {
+    padding: 4px 0;
+    height: 54px;
+    .cell {
+      line-height: 20px;
+    }
+  }
+}
+// el-table end -------------
+
+// el-pagination start
+.el-pagination.is-background {
+  .btn-prev,
+  .btn-next,
+  .el-pager li {
+    margin: 0px 3px;
+    background-color: #fff;
+    border: 1px solid #d4d7e1;
+    border-radius: 3px;
+  }
+  .el-pager li:not(.disabled).active {
+    background-color: #ffffff;
+    border: 1px solid var(--el-color-primary);
+    border-radius: 3px;
+    color: var(--el-color-primary);
+  }
+  .btn-prev:disabled,
+  .btn-next:disabled {
+    background-color: #f6f8fc;
+  }
+}
+// el-pagination end -------------
