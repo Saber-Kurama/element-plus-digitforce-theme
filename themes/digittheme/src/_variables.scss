@@ -29,7 +29,7 @@
       'large': 36px,
       'default': 36px,
       'small': 24px,
-    )
+    ),
   // $common-component-size: map.merge(
   //   (
   //     'large': 36px,
@@ -38,4 +38,9 @@
   //   ),
   //   $common-component-size
   // )
+  $button-padding-horizontal: (
+    'large': 20px,
+    'default': 18px,
+    'small': 12px,
+  ),
 );
