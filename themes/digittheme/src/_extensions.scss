@@ -56,3 +56,12 @@
   }
 }
 // el-pagination end -------------
+
+// el-input start
+.el-input {
+  .el-button.el-button--small,
+  .el-button.el-button--default {
+    min-width: inherit;
+  }
+}
+// el-input end -------------
