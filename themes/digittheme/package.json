@@ -1,11 +1,11 @@
 {
   "name": "@digitforce/element-plus-digittheme",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "src/index.scss",
   "files": [
     "src"
   ],
   "dependencies": {
-    "element-plus": "1.3.0-beta.1"
+    "element-plus": "1.3.0-beta.5"
   }
 }
